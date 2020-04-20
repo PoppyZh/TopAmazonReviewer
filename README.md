@@ -18,15 +18,14 @@ Predict whether people will be a top reviewer (with more than 100 reviews) or no
 2. 1-d CNN 
 3. FastText
 
-|Model | Numerical Data | Numerical and Textual Attributes & Review Text 
-| ------------- |:-------------:|:-------------:|:-------------:|-----:|
- MLP| 1st Reviews: 61\% | 1st Reviews: 80\%|
-
-MLP | 3 Reviews: 71\% | 3 Reviews: 81\% |
-MLP | 10 Reviews: 78\% | 10 Reviews: 83\% |
-LTSM |   & 10 Reviews: 84\%|
-1-d CNN |   & &10 Reviews: 87\%  |
-Fasttext |   & &10 Reviews: 90\%|
+|Model          | Numerical Data    | Numerical and Textual Attributes | Review Text |
+| ------------- |:-----------------:|:--------------------------------:|-----------:|
+| MLP           | 1st Reviews: 61\% | 1st Reviews: 80\%                |       |
+|MLP            | 3 Reviews: 71\%   | 3 Reviews: 81\%                  |      |
+|MLP            | 10 Reviews: 78\%  | 10 Reviews: 83\%                 |     |
+|LTSM           |                   | 10 Reviews: 84\%                 |  |
+|1-d CNN        |                   |                                  |10 Reviews: 87\%  |
+|Fasttext       |                   |                                  | Reviews: 90\%|
 
 
 ## Findings
