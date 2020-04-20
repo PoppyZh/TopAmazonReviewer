@@ -12,14 +12,14 @@ Our data is a random subset of reviewers from a bigger data set that is used in 
 ## Goal  
 Predict whether people will be a top reviewer (with more than 100 reviews) or not using their first 1 review. 
 
-## Model 
-
+## Predict the Top Reviewers
+### Model  
 1. MLP 
 2. 1-d CNN 
 3. FastText
-
+### Results Summary 
 |Model          | Numerical Data    | Numerical and Textual Attributes | Review Text |
-| ------------- |:-----------------:|:--------------------------------:|-----------:|
+| ------------- |----  -------------|----------------------------------|-------------|
 | MLP           | 1st Reviews: 61\% | 1st Reviews: 80\%                |       |
 |MLP            | 3 Reviews: 71\%   | 3 Reviews: 81\%                  |      |
 |MLP            | 10 Reviews: 78\%  | 10 Reviews: 83\%                 |     |
@@ -27,8 +27,18 @@ Predict whether people will be a top reviewer (with more than 100 reviews) or no
 |1-d CNN        |                   |                                  |10 Reviews: 87\%  |
 |Fasttext       |                   |                                  | Reviews: 90\%|
 
+## Categorize the Top Reviewers 
+### Model 
+LDA with 2000 reviwers who have written more than 500 reviews. 
 
-## Findings
+|Major Groups   |Book           | Entertainment     | LifeStyle                  |   Music          |
+|-------------- |---------------|-------------------|----------------------------|------------------|
+|               |Books          |   Movies and TV    |Electronics                |    CDs and Vinyl |
+|               |Kindle Store   |  Video Game        |  Health and Personal Care |   Digital Music  |
+|               |Arts           |Amazon Instant Video| Grocery and Gourmet Food  |Musical Instruments|
+
+
+## Conclusions
 
 (1) Using our model, we can predict who will become top reviewers with 90% accuracy. Review text help to improve prediction rate. 
 (2) I found 4 types of top reviewers who have distinct interests in diﬀerent product categories. 
