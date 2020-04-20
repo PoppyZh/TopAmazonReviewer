@@ -19,7 +19,7 @@ Predict whether people will be a top reviewer (with more than 100 reviews) or no
 3. FastText
 ### Results Summary 
 |Model          | Numerical Data    | Numerical and Textual Attributes | Review Text |
-| ------------- |----  -------------|----------------------------------|-------------|
+|---------------|------------------|----------------------------------|-------------|
 | MLP           | 1st Reviews: 61\% | 1st Reviews: 80\%                |       |
 |MLP            | 3 Reviews: 71\%   | 3 Reviews: 81\%                  |      |
 |MLP            | 10 Reviews: 78\%  | 10 Reviews: 83\%                 |     |
